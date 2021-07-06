@@ -1,0 +1,12 @@
+<template name="layout">
+  {{> Template.dynamic template=top}}
+  <main id="content" role="main">
+    {{> Template.dynamic template=main}}
+  </main>
+</template>
+
+<template name="auth">
+  <main id="content" class="auth" role="main">
+    {{> Template.dynamic template=main}}
+  </main>
+</template>
